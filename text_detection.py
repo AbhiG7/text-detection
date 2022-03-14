@@ -1,5 +1,8 @@
 import numpy as np
 import cv2
+import tensorflow as tf
+
+
 
 train_data = np.loadtxt('C:\mnist_dataset\mnist_train.csv', delimiter=",")
 #test_data = np.loadtxt('C:\mnist_dataset\mnist_test.csv', delimiter=",")
